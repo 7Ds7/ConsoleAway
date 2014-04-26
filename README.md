@@ -11,6 +11,24 @@ This is my first batch script ever and i have being using it in a controlled env
 
 ---
 
+###USAGE
+```
+user@machine$ ./consoleaway.sh
+Usage: consoleaway.sh options (-f -r) [FILE || FOLDER]
+
+consoleaway -h
+  Prints this message
+
+consoleaway -f [FILE.js || FILE.coffee]
+  Process single file
+
+consoleaway -r [FOLDER]
+  Process folder recursively
+
+WARNING: this will modify your files make sure you back them up
+```
+---
+
 ###WHY
 This came out of the necessity to automatically remove the darn ```console``` upon deployment to a production enviroment.
 
@@ -70,22 +88,3 @@ function heyThere() {
 });
 ```
 The need to have some discipline while writting ```console``` instructions is obvious. The problem is, as it encouters the instruction it comments it out, on the spot, ignoring anything behind, ahead, before or after the instruction. You can probably guess by now that running the script on a **already minified file is a big no no**.
-
----
-
-###USAGE
-```
-user@machine$ ./consoleaway.sh
-Usage: consoleaway.sh options (-f -r) [FILE || FOLDER]
-
-consoleaway -h
-  Prints this message
-
-consoleaway -f [FILE.js || FILE.coffee]
-  Process single file
-
-consoleaway -r [FOLDER]
-  Process folder recursively
-
-WARNING: this will modify your files make sure you back them up
-```
