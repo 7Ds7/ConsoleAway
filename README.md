@@ -1,4 +1,3 @@
-
 ConsoleAway
 ===========
 **version:** 0.9b
@@ -7,7 +6,7 @@ Bash script to remove ```console.log```, ```console.warn```, ```console...``` fr
 
 ####WARNING
 First the classic " i am not responsible for any damage, loss of files, rage towards the machine or causing world disasters... " 
-This is my first batch script ever and i have being using it in a controlled environment, hence...**EXPECT PROBLEMS**, recommendations are **very appreciated**.
+This is my first batch script ever and i have being using it in a controlled environment, hence...**EXPECT PROBLEMS**, recommendations are **very appreciated**. 
 
 ---
 
